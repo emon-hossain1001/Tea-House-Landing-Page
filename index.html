@@ -28,7 +28,8 @@
         theme: {
           extend: {
             colors: {
-              clifford: "#da373d",
+              'gradient-start': "#FF8938",
+              'gradient-end': "#F00",
             },
           },
         },
@@ -42,8 +43,8 @@
   </head>
   <body class=".font-marope">
     <header class="container mx-auto">
-      <div class="hero">
-        <div class="hero-content flex-col lg:flex-row">
+      <div class="my-20">
+        <div class="flex justify-between items-center flex-col lg:flex-row">
           <div>
             <h1 class="text-7xl font-extrabold">
               It's good <br />
@@ -54,13 +55,16 @@
               Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
               Your Taste Buds.
             </p>
-            <button class="btn btn-primary">Explore More</button>
+            <button class="btn text-white bg-gradient-to-r from-gradient-start to-gradient-end">
+                Explore More
+                <i class="fa-solid fa-arrow-trend-up"></i>
+            </button>
           </div>
           <div>
-            <img src="./images/banner.png" class="max-w-sm" />
+            <img src="./images/banner.png" class="" />
             <!-- Rating Badge -->
             <div
-              class="-mt-16 flex items-center gap-4 drop-shadow-lg bg-white p-5 w-60"
+              class="-mt-28 flex items-center gap-4 drop-shadow-lg bg-white p-5 w-60"
             >
               <i class="fa-solid fa-star text-3xl text-amber-400"></i>
               <div class="">
@@ -179,7 +183,7 @@
       </section>
       <!-- super client section -->
       <section
-        class="my-24 flex flex-col lg:flex-row gap-12 bg-gradient-to-r from-[#FF8938] to-[#F00] rounded-xl px-16 py-24"
+        class="my-24 flex flex-col lg:flex-row gap-12 bg-gradient-to-r from-gradient-start to-gradient-end rounded-xl px-16 py-24"
       >
         <div class="flex items-center lg:pr-28">
           <div class="space-y-5">
@@ -193,7 +197,7 @@
               injected humour, or randomised words which don't look even
               slightly believable.
             </p>
-            <button class="btn btn-primary">Show All</button>
+            <button class="btn bg-gradient-to-r from-gradient-start to-gradient-end text-2xl text-white">Show All</button>
           </div>
         </div>
         <!-- review container -->
@@ -257,53 +261,119 @@
       <section class="text-center my-24">
         <h2 class="text-5xl font-extrabold mb-5">News & Events</h2>
         <p class="lg:max-w-3xl mb-10 mx-auto">
-            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. 
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour, or randomised words which don't look even slightly believable.
         </p>
         <div class="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-            <!-- first news -->
+          <!-- first news -->
           <div
-          class="card p-5 text-start bg-white border border-[#D3D3D3] rounded-xl"
-        >
-          <figure>
-            <img src="./images/news-1.png" alt="Shoes" />
-          </figure>
-          <div class="card-body">
-            <p>Feb 05, 2027</p>
-            <h2 class="font-extrabold text-2xl">Collecting 8 points for discount</h2>
-            <p>There are many variations of passages of Lorem Ipsum available.</p>
-            <h4 class="text-xl font-medium">Learn More</h4>
+            class="card p-5 text-start bg-white border border-[#D3D3D3] rounded-xl"
+          >
+            <figure>
+              <img src="./images/news-1.png" alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <p>Feb 05, 2027</p>
+              <h2 class="font-extrabold text-2xl">
+                Collecting 8 points for discount
+              </h2>
+              <p>
+                There are many variations of passages of Lorem Ipsum available.
+              </p>
+              <h4 class="text-xl font-medium">Learn More</h4>
+            </div>
           </div>
-        </div>
-            <!-- second news -->
+          <!-- second news -->
           <div
-          class="card p-5 text-start bg-white border border-[#D3D3D3] rounded-xl"
-        >
-          <figure>
-            <img src="./images/news-2.png" alt="Shoes" />
-          </figure>
-          <div class="card-body">
-            <p>Feb 05, 2027</p>
-            <h2 class="font-extrabold text-2xl">Collecting 8 points for discount</h2>
-            <p>There are many variations of passages of Lorem Ipsum available.</p>
-            <h4 class="text-xl font-medium">Learn More</h4>
+            class="card p-5 text-start bg-white border border-[#D3D3D3] rounded-xl"
+          >
+            <figure>
+              <img src="./images/news-2.png" alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <p>Feb 05, 2027</p>
+              <h2 class="font-extrabold text-2xl">
+                Collecting 8 points for discount
+              </h2>
+              <p>
+                There are many variations of passages of Lorem Ipsum available.
+              </p>
+              <h4 class="text-xl font-medium">Learn More</h4>
+            </div>
           </div>
-        </div>
-            <!-- Third news -->
+          <!-- Third news -->
           <div
-          class="card p-5 text-start bg-white border border-[#D3D3D3] rounded-xl"
-        >
-          <figure>
-            <img src="./images/news-3.png" alt="Shoes" />
-          </figure>
-          <div class="card-body">
-            <p>Feb 05, 2027</p>
-            <h2 class="font-extrabold text-2xl">Collecting 8 points for discount</h2>
-            <p>There are many variations of passages of Lorem Ipsum available.</p>
-            <h4 class="text-xl font-medium">Learn More</h4>
+            class="card p-5 text-start bg-white border border-[#D3D3D3] rounded-xl"
+          >
+            <figure>
+              <img src="./images/news-3.png" alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <p>Feb 05, 2027</p>
+              <h2 class="font-extrabold text-2xl">
+                Collecting 8 points for discount
+              </h2>
+              <p>
+                There are many variations of passages of Lorem Ipsum available.
+              </p>
+              <h4 class="text-xl font-medium">Learn More</h4>
+            </div>
           </div>
-        </div>
         </div>
       </section>
     </main>
+    <footer class="px-4 lg:px-48 py-10 bg-base-200 text-base-content">
+        <div class="flex justify-between my-20">
+            <img src="./images/cup.png" alt="">
+            <p>
+                <span>Ready to get started?</span>
+                <button class="btn text-white bg-gradient-to-r from-gradient-start to-gradient-end">Get Started</button>
+            </p>
+        </div>
+      <div class="footer">
+        <nav>
+          <header class="footer-title">Services</header>
+          <a class="link link-hover">Branding</a>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Advertisement</a>
+        </nav>
+        <nav>
+          <header class="footer-title">Company</header>
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Jobs</a>
+          <a class="link link-hover">Press kit</a>
+        </nav>
+        <nav>
+          <header class="footer-title">Legal</header>
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </nav>
+        <form>
+          <header class="footer-title">Newsletter</header>
+          <fieldset class="form-control w-80">
+            <label class="label">
+              <span class="label-text">Enter your email address</span>
+            </label>
+            <div class="join">
+              <input
+                type="text"
+                placeholder="username@site.com"
+                class="py-4 px-4 bg-transparent border-b-2 border-black outline-none"
+              />
+              <button class="btn text-white rounded-full bg-gradient-to-r from-gradient-start to-gradient-end">
+                <i class="fa-solid fa-angle-right"></i>
+              </button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+      <div class="mt-10 text-center">
+        <p>Copyright © 2024 - All right reserved by ACME Industries Ltd</p>
+      </div>
+    </footer>
   </body>
 </html>
